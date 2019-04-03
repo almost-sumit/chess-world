@@ -1,6 +1,6 @@
 package application;
 
-public class User {
+public class User implements UserInterface {
 	
 	private String userId;
 	
@@ -14,10 +14,12 @@ public class User {
 	
 	private String emailId;
 	
+	@Override
 	public String createAccount() {
 		return this.userId;
 	}
 	
+	@Override
 	public boolean deleteAccount() {
 		return true;
 	}
