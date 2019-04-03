@@ -1,0 +1,7 @@
+bin
+build.fxbuild
+.classpath
+.git
+..gitignore.swp
+.project
+.settings
